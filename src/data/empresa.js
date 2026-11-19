@@ -38,23 +38,23 @@ export const empresa = {
     {
       nome: "Vitor Manuel",
       cargo: "CEO e Especialista Back-end",
-      foto: "/images/Vitor.jpg",
+      foto: "/images/vitor.jpg",
       alt: "Foto de Vitor Manuel",
-      descricao: "Começou programando por paixão por jogos e tecnologia, até fundar a Mobile System."
+      descricao: "Começou programando por paixão por jogos e tecnologia, fundando a Mobile System."
     },
     {
       nome: "Adalberto Farias",
       cargo: "Especialista Front-end",
-      foto: "/images/Adalberto.jpg",
+      foto: "/images/adalberto.jpg",
       alt: "Foto de Adalberto Farias",
-      descricao: "Começou sua jornada criando interfaces e desenvolvendo sua paixão por design e programação."
+      descricao: "Começou criando interfaces por paixão por design, até integrar a Mobile System."
     },
     {
       nome: "Pedro Vitor",
       cargo: "Especialista em Bancos de Dados",
       foto: "/images/Pedro.jpg",
       alt: "Foto de Pedro Vitor",
-      descricao: "Responsável pelo desenvolvimento e manutenção dos aplicativos mobile, garantindo uma boa experiência e desempenho nos dispositivos móveis."
+      descricao: "Começou criando apps por paixão por jogos e código, até entrar na Mobile System."
     }
   ]
 };
