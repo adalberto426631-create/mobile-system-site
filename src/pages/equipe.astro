@@ -1,49 +1,23 @@
-<html lang="pt-BR">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Nossa Equipe | Mobile Systems</title>
-	</head>
-	<body>
-		<header>
-			<strong>Mobile Systems</strong>
-			<nav>
-				<ul>
-					<li><a href="/">Início</a></li>
-					<li><a href="/sobre">Sobre</a></li>
-					<li><a href="/equipe">Equipe</a></li>
-					<li><a href="/contato">Contato</a></li>
-				</ul>
-			</nav>
-		</header>
+---
+import LayoutBase from '../layouts/LayoutBase.astro';
+import { empresa } from '../data/empresa.js';
+---
 
-		<main>
-			<section>
-				<h1>Nossa Equipe Técnica</h1>
-				<p>Conheça os profissionais da Mobile System, uma equipe dedicada ao desenvolvimento de jogos, unindo criatividade, tecnologia e inovação para transformar ideias em experiências digitais interativas, divertidas e de qualidade.</p>
-				<ul>
-					<li>
-						<h2>Vitor Manuel</h2>
-						<strong>CEO e Especialista Back-end</strong>
-						<p>Começou programando por paixão por jogos e tecnologia, até fundar a Mobile System.</p>
-					</li>
-					<li>
-						<h2>Adalberto Farias</h2>
-						<strong>Especialista Front-end</strong>
-						<p>Começou sua jornada criando interfaces e desenvolvendo sua paixão por design e programação.</p>
-					</li>
-					<li>
-						<h2>Pedro Vitor</h2>
-						<strong>Especialista em Desenvolvimento Mobile </strong>
-						<p>Responsável pelo desenvolvimento e manutenção dos aplicativos mobile, garantindo uma boa experiência e desempenho nos dispositivos móveis.</p>
-					</li>
-				</ul>
-			</section>
-		</main>
-
-		<footer>
-			<p>&copy; 2026 Mobile Systems. Todos os direitos reservados.</p>
-		</footer>
-	</body>
-</html>
+<LayoutBase 
+	titulo="Nossa Equipe" 
+	descricao={`Conheça os profissionais por trás da ${empresa.nome}.`}
+>
+	<section>
+		<h1>Nossa Equipe Técnica</h1>
+		<p>Conheça os profissionais que transformam requisitos de negócio em soluções de software seguras e escaláveis</p>
+		<ul>
+			{empresa.equipe.map((membro) => (
+				<li>
+					<h2>{membro.nome}</h2>
+					<strong>{membro.cargo}</strong>
+					<p>{membro.descricao}</p>
+				</li>
+			))}
+		</ul>
+	</section>
+</LayoutBase>
