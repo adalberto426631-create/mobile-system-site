@@ -55,6 +55,13 @@ export const empresa = {
       foto: "/images/Pedro.jpg",
       alt: "Foto de Pedro Vitor",
       descricao: "Começou criando apps por paixão por jogos e código, até entrar na Mobile System."
-    }
+    },
+    {
+      nome: "Jordan Carter",
+      cargo: "Especialista Full-Stack",
+      foto: "/images/jordan.jpg",
+      alt: "Foto de Jordan Carter",
+      descricao: "Responsável pelo desenvolvimento completo de aplicações, desde a interface até o funcionamento dos sistemas."
+    },
   ]
 };
