@@ -1,19 +1,19 @@
 /* src/styles/global.css */
 :root {
   /* Paleta de Cores baseada no Logo */
-  --cor-primaria: #0d1520; /* Quase preto */
-  --cor-secundaria: #0058ec; /* Azul escuro do degradê (links e botões) */
-  --cor-destaque: #008ff7; /* Azul claro do degradê (decorativo) */
+  --cor-primaria: #0D3B63; /* Quase preto */
+  --cor-secundaria: #0066FF; /* Azul escuro do degradê (links e botões) */
+  --cor-destaque: #0085FF; /* Azul claro do degradê (decorativo) */
   --cor-fundo: #ffffff;
-  --cor-fundo-alt: #f8fafc;
-  --cor-texto: #334155;
-  --cor-texto-secundario: #64748b;
-  --cor-texto-invertido: #ffffff;
-  --cor-texto-invertido-suave: #cbd5e1;
-  --cor-borda: #e2e8f0;
+  --cor-fundo-alt: #F5F5F5;
+  --cor-texto: #111111;
+  --cor-texto-secundario: #555555;
+  --cor-texto-invertido: #FFFFFF;
+  --cor-texto-invertido-suave: #D9E8FF;
+  --cor-borda: #D0D0D0;
   
   /* Variável para o Hero */
-  --cor-hero-fim: #00224d;
+  --cor-hero-fim: #00224D;
 
   /* Degradês Globais */
   --degrade-marca: linear-gradient(
