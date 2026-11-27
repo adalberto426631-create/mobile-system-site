@@ -29,8 +29,8 @@
 
   /* Variáveis Estruturais */
   --borda-raio: 8px;
-  --sombra-cartao: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
-  --sombra-cartao-hover: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  --sombra-cartao: 0 4px 6px -1px #a4c0e900;
+  --sombra-cartao-hover: 0 10px 15px -3px rgb(25, 170, 238);
   --espacamento-secao: 4rem;
 }
 

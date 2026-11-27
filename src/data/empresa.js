@@ -2,7 +2,7 @@ export const empresa = {
   nome: "Mobile Systems",
   slogan: "Criando jogos, conectando mundos.",
   historia:
-    "A Mobile Systems foi criada por Adalberto Farias Nascimento e Vitor Manuel Almeida Balnino, em Piripiri, Piauí, com o objetivo de expandir o mercado de jogos mobile e transformar ideias criativas em experiências inovadoras para jogadores. Além de criar jogos, os fundadores têm o sonho de aumentar a visibilidade do Piauí na indústria de games, mostrando que grandes ideias e talentos também podem nascer no estado e alcançar o mundo.",
+    "A Mobile Systems foi criada por Adalberto Farias Nascimento e Vitor Manuel Almeida Balbino, em Piripiri, Piauí, com o objetivo de expandir o mercado de jogos mobile e transformar ideias criativas em experiências inovadoras para jogadores. Além de criar jogos, os fundadores têm o sonho de aumentar a visibilidade do Piauí na indústria de games, mostrando que grandes ideias e talentos também podem nascer no estado e alcançar o mundo.",
   missao:
     "Criar jogos mobile inovadores e divertidos, transformando ideias em experiências marcantes para jogadores de todo o mundo.",
   visao:

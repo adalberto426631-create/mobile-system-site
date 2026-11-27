@@ -8,6 +8,14 @@ import { empresa } from '../data/empresa.js';
 	titulo="Fale Conosco" 
 	descricao={`Entre em contato com a ${empresa.nome}.`}
 >
+<div class="fachada-contato">
+	<img
+      			src="/images/Fachada.png"
+    		    alt="Fachada da Mobile System"
+				style="width: 100%;border-radius:2%"
+    		/>
+	
+</div>
 	<section class="secao">
 		<div class="container">
 			<div class="cabecalho-secao">
@@ -37,6 +45,26 @@ import { empresa } from '../data/empresa.js';
 </LayoutBase>
 
 <style>
+	
+
+
+.fachada-contato {
+    margin: 0 auto 2rem;
+    max-width: 1100px;
+    padding: 0 1rem;
+}
+
+.fachada-contato img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain;
+    border: 2px solid var(--cor-secundaria);
+    border-radius: 12px;
+}
+
+
+
 	.cabecalho-secao {
 		margin-bottom: 3rem;
 	}
